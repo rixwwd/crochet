@@ -109,7 +109,7 @@ nanobsd_install() {
     for d in var etc
     do
         mkdir -p conf/base/$d conf/default/$d
-        find $d -print | cpio -dumpl -R root:wheel conf/base/
+        find $d -print | cpio -dumpl conf/base/
     done
     #chown -Rh root:wheel conf/base
     chgrp operator conf/base/etc/dumpdates
