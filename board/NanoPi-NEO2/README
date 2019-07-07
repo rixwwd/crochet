@@ -22,8 +22,7 @@ connectors on the board.
 How to boot the NanoPi NEO2
 --------------------------------
 
-1. Connect the board to a HDMI display, network, and USB keyboard.
-   Network alone will work if you wish to boot headless.
+1. Connect the board to a network.
 
 2. Insert a microSD card with this generated image.
 
